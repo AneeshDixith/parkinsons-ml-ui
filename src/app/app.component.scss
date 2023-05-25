@@ -1,0 +1,58 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+  appearance: textfield;
+}
+
+.body{
+  display: flex;
+}
+
+.body-class{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.horizontal{
+  padding: 1vh;
+  flex: content;
+  flex-direction: column;
+  align-items:baseline
+}
+
+.button-div{
+  display: flex;
+  flex-direction: row;
+  flex: content;
+  align-items: center;
+  place-content: center;
+  padding: 1vh;
+}
+
+.result-div{
+  padding: 1vh 5vh 1vh 5vh;
+  border-radius: 20;
+  margin: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex: content;
+  align-items: center;
+  place-content: center;
+  padding: 1vh;
+}
+
+.bottom-div{
+  display: flex;
+  flex: content;
+  flex-direction: column;
+}
+
+.result-display-div{
+  padding: 1vh;
+  border-radius: 5px;
+}
+
+
